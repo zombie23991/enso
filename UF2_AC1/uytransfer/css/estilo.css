@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'KaushanScript';
+	src: url(../fonts/KaushanScript.ttf);
+
+	font-family: 'roboto';
+	src: url(../fonts/Roboto.ttf); 	
+}
+
+
+*{
+	padding: 0; 
+	margin: 0; 
+	box-sizing: 
+	border-box;}
+
+body{
+	height: 600px;
+}
+
+
+header {
+	background: rgb(58,116,180);
+	background: linear-gradient(90deg, rgba(58,116,180,1) 0%, rgba(43,29,253,1) 50%, rgba(182,69,252,1) 100%);
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 100px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  	background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family: 'KaushanScript', cursive;
+	font-size: 80px;
+	margin-bottom: 50px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 15px 25px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin: 0.7em;
+	box-shadow: 0 3px 20px 0 #0000003b;
+	font-family: 'Roboto';
+}
+button:hover{
+	cursor: pointer;
+}
